@@ -11,23 +11,23 @@ export default {
          data: [
             {
                logo: logoGoogle,
-               wSize: 'w-[139px]',
+               wSize: 'w-[139px] DTL:w-[165px]',
             },
             {
                logo: logoImb,
-               wSize: 'w-[121px]',
+               wSize: 'w-[121px] DTL:w-[144px]',
             },
             {
                logo: logoMicrosoft,
-               wSize: 'w-[135px]',
+               wSize: 'w-[135px] DTL:w-[160px]',
             },
             {
                logo: logoHp,
-               wSize: 'w-[113px]',
+               wSize: 'w-[113px] DTL:w-[134px]',
             },
             {
                logo: logoVg,
-               wSize: 'w-[105px]',
+               wSize: 'w-[105px] DTL:w-[125px]',
             },
          ]
       }

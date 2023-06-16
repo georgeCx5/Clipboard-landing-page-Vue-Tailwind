@@ -34,18 +34,26 @@ export default {
       dataIndex: {
          Number,
          default: 0,
+      },
+      DTLGap: {
+         String,
+         default: 'DTL:gap-11',
+      },
+      DTLpaddingT: {
+         String,
+         default: 'DTL:pt-0'
       }
    }
 }
 </script>
 <template>
-   <div class=" flex flex-col items-center gap-[40px]">
+   <div :class="` flex flex-col items-center gap-[40px] ${DTLGap} ${DTLpaddingT}`">
       <component :is="data[dataIndex].icon" />
-      <div class=" flex flex-col gap-[18px]">
+      <div class=" flex flex-col gap-[18px] DTL:gap-4 DTL:w-[350px]">
          <h3 class=" text-neo-dark-blue text-[24px] leading-[30px] tracking-[-.39px] font-semibold">
             {{ data[dataIndex].header }}
          </h3>
-         <p class=" text-[16px] leading-[26px] tracking-[.12px]">
+         <p class=" text-[16px] leading-[26px] DTL:leading-[30px] tracking-[.12px]">
             {{ data[dataIndex].main }}
          </p>
       </div>

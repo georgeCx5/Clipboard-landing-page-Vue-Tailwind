@@ -24,11 +24,11 @@ export default {
 }
 </script>
 <template>
-   <div class=" flex flex-col gap-[10px]">
+   <div class=" flex flex-col gap-[10px] DTL:gap-2">
       <h3 class=" text-neo-dark-blue text-[24px] leading-[30px] tracking-[-.39px] font-semibold">
          {{ data[dataIndex].header }}
       </h3>
-      <p class=" text-[16px] leading-[26px] tracking-[.12px]">
+      <p class=" text-[16px] leading-[26px] DTL:leading-[30px] tracking-[.12px]">
          {{ data[dataIndex].main }}
       </p>
    </div>
