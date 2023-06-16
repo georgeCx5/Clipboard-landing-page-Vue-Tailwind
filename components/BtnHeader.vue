@@ -14,7 +14,7 @@ export default {
 </script>
 <template>
    <div class=" relative text-white text-[18px] leading-[30px] tracking-[.5px] font-semibold">
-      <button :class="` w-full h-[52px] ${bgColor} hover:brightness-[1.25] peer rounded-[28px]`">
+      <button :class="` w-full TB:w-[227px] h-[52px] ${bgColor} hover:brightness-[1.25] peer rounded-[28px]`">
          Download for {{ btnText }}
       </button>
       <div

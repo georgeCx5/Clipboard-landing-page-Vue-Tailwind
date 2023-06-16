@@ -24,7 +24,7 @@ export default {
 }
 </script>
 <template>
-   <div class=" flex flex-col gap-[10px] text-center">
+   <div class=" flex flex-col gap-[10px]">
       <h3 class=" text-neo-dark-blue text-[24px] leading-[30px] tracking-[-.39px] font-semibold">
          {{ data[dataIndex].header }}
       </h3>
